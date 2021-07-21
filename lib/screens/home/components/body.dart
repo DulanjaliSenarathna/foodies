@@ -5,6 +5,7 @@ import 'package:foodies/components/search_box.dart';
 import 'package:foodies/constants.dart';
 import 'package:foodies/screens/home/components/category_item.dart';
 import 'package:foodies/screens/home/components/category_list.dart';
+import 'package:foodies/screens/home/components/discount_card.dart';
 import 'package:foodies/screens/home/components/item_card.dart';
 import 'package:foodies/screens/home/components/item_list.dart';
 
@@ -25,25 +26,6 @@ class Body extends StatelessWidget {
   }
 }
 
-class DiscountCard extends StatelessWidget {
-  const DiscountCard({
-    Key key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Text("Offers & Discounts",
-        style: TextStyle(
-          fontWeight: FontWeight.bold,
-          color: kTextColor,
-        ),
-        ),
-      ],
-    );
-  }
-}
 
 
 
