@@ -35,7 +35,7 @@ class ItemCard extends StatelessWidget {
                 padding: const EdgeInsets.all(20.0),
                 child: Container(
                   margin: EdgeInsets.only(bottom: 15),
-                  padding: EdgeInsets.all(25),
+                  padding: EdgeInsets.all(20),
                   decoration: BoxDecoration(
                       color: kPrimaryColor.withOpacity(0.13),
                       shape: BoxShape.circle
