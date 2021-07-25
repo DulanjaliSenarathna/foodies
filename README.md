@@ -2,6 +2,9 @@
 
 Flutter Food Order App UI
 
+![foodies](https://user-images.githubusercontent.com/59603716/126901808-82606ba5-7627-48b0-bd31-6f0303e22173.png)
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
